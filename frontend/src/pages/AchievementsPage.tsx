@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Trophy, Lock, Star, Coins, Zap } from "lucide-react";
+import { Trophy, Lock, Coins, Zap } from "lucide-react";
 import { apiGet } from "../lib/api";
 import GlassCard from "../components/GlassCard";
 

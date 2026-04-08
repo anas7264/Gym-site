@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Users, Heart, MessageCircle, Plus, Trophy, Medal, Crown, Send } from "lucide-react";
+import { Users, Heart, MessageCircle, Trophy, Medal, Crown, Send } from "lucide-react";
 import { apiGet, apiPost } from "../lib/api";
 import GlassCard from "../components/GlassCard";
 import toast from "react-hot-toast";
