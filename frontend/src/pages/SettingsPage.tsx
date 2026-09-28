@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Settings, User, Globe, Bell, Shield, Palette, Ruler, Save } from "lucide-react";
+import { Settings, User, Bell, Shield, Palette, Ruler, Save } from "lucide-react";
 import { useAuthStore } from "../stores/authStore";
 import { useThemeStore } from "../stores/themeStore";
 import { changeLanguage } from "../i18n";

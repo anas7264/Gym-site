@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { useState, ReactNode } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -47,7 +47,7 @@ const navItems = [
   { path: "/settings", icon: Settings, key: "settings" },
 ];
 
-export default function Layout() {
+export default function Layout({ children }: { children: ReactNode }) {
   const { t, i18n } = useTranslation();
   const location = useLocation();
   const navigate = useNavigate();
@@ -254,7 +254,7 @@ export default function Layout() {
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <Outlet />
+                {children}
               </motion.div>
             </AnimatePresence>
           </main>

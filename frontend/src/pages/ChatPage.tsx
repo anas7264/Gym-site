@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { MessageCircle, Send, Bot, User, Sparkles } from "lucide-react";
 import { apiPost } from "../lib/api";
-import GlassCard from "../components/GlassCard";
 
 interface Message {
   role: "user" | "assistant";

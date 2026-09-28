@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { Target, Users, Calendar, Zap, Coins, Clock } from "lucide-react";
+import { Target, Users, Zap, Coins, Clock } from "lucide-react";
 import { apiGet } from "../lib/api";
 import GlassCard from "../components/GlassCard";
-import ProgressRing from "../components/ProgressRing";
 
 interface Challenge {
   id: number;

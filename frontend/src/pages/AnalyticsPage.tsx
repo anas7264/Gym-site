@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
-import { BarChart3, TrendingUp, Activity, Target, Scale, Plus } from "lucide-react";
+import { BarChart3, TrendingUp, Activity, Scale, Plus } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from "recharts";
 import { apiGet, apiPost } from "../lib/api";
 import GlassCard from "../components/GlassCard";

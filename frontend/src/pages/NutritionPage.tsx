@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import {
   Apple, Plus, Search, Droplets, Timer, Calculator,
-  ShoppingCart, BookOpen, Pill, UtensilsCrossed,
 } from "lucide-react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import { apiGet, apiPost } from "../lib/api";

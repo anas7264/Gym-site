@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ShoppingBag, Star, ShoppingCart, Coins, Crown, Zap } from "lucide-react";
+import { ShoppingBag, Star, ShoppingCart } from "lucide-react";
 import GlassCard from "../components/GlassCard";
 import toast from "react-hot-toast";
 

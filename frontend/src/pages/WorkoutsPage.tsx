@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Dumbbell, Plus, Play, Clock, Flame, Trophy, Calculator,
-  ChevronDown, ChevronUp, Trash2, Sparkles, Timer,
+  Dumbbell, Plus, Play, Trophy, Calculator,
+  Trash2, Sparkles, Timer,
 } from "lucide-react";
 import { apiGet, apiPost } from "../lib/api";
 import GlassCard from "../components/GlassCard";
